@@ -1,34 +1,27 @@
 
-
-
 function mostrarDatos(){
 
 
-    nameInput=prompt("Nombre");
-    ageInput=prompt("Edad");
-    cityInput=prompt("Ciudad");
+    var nameInput=document.getElementById("label-name").value;
+    var ageInput=parseInt(document.getElementById("label-age").value);
+    var cityInput=document.getElementById("label-city").value;
     document.write("<br>");
 
-    document.write(`A ${nameInput}B ${ageInput}C ${cityInput}`);
+   
 
 
 
     if(ageInput>18){
 
         alert("bienvenido");
+        document.write(`Señor o señora ${nameInput} con ${ageInput} años de la ciudad ${cityInput}`);
 
     }
     else{
         alert("devuelvase mijo");
-
-
+        document.write(`Joven/adolecente/niño ${nameInput} con ${ageInput} años de la ciudad ${cityInput}`);
+        document.write("regrese cuando tenga la mayoria de edad");
     }
 
-    document.write("<br>");
-    document.write(document.getElementById("input-name").value);
-    document.write("<br>");
-    document.write(document.getElementById("input-age").value);
-    document.write("<br>");
-    document.write(document.getElementById("input-city").value);
 
 }
