@@ -1,3 +1,14 @@
+/* Importacion de Fuente GABARITO,POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Gabarito','Poppins', sans-serif;
+}
+
+    
+
+
+
 .body_page{/* body */
     display: block;
     background-color: azure;
