@@ -12,6 +12,10 @@
 .body_page{/* body */
     display: block;
     background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 
 
 
@@ -19,6 +23,12 @@
 
 }
 .containter-main{/* div container-main contenedor principal */
+
+    border: solid 2px black;
+    background-color: brown;
+    height: 300px;
+    width: 80%;
+
 
 
 }
@@ -28,14 +38,19 @@
 
 }
 .paragraph-1{/* p */
+    font-style: oblique;
 
 }
 .checkbox-container{/* div checkbox-container contenedor checkbox */
 
+    border: solid 2px black;
+    background-color: aqua;
 
 }
 
 .btn-container{/* div btn-container Contendor de botones */
+    border: solid 2px black;
+    background-color: rgb(0, 255, 98);
 }
 
 .btn{/* btn selector general de botones */} 

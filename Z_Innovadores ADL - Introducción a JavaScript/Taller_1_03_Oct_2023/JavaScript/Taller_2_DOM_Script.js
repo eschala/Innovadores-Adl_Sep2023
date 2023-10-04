@@ -11,55 +11,36 @@ const contenedores_ = document.querySelectorAll(".checkbox-container");
       alert("Checkbox Desactivado");
     }
 */
-
+var activar_Checkbox, desactivar_Checkbox;
 const stylesForCheckbox = document.querySelector(".checkbox_input");
 const contenedores_ = document.querySelectorAll(".checkbox-container");
 
 const activateCheckbox = () => {
+  /* checkbox funcion */
   for (i = 0; i < contenedores_.length; i++) {
     contenedores_[i].classList.toggle("activateCheckbox");
 
-    if (stylesForCheckbox.checked == true) {
-        alert("Checkbox Activado");
-
-        applyStylesCheckbox();
-      } else {
-        alert("Checkbox Desactivado");
+    if (stylesForCheckbox.checked == false) {
+      alert("Checkbox Activado");
 
 
 
 
-        putOffStylesForCheckbox();
-      }
+
+    } else if (stylesForCheckbox.checked == true) {
+      alert("Checkbox Desactivado");
+
+      
+
+
+    }
+
 
 
   }
+
+
+
+  
 };
 
-stylesForCheckbox.addEventListener("click", activateCheckbox);
-
-
-let applyStylesCheckbox =()=>{
-
-    let bodyStyles = document.querySelector(".body_page");
-
-    for(i=0;i<bodyStyles.length;i++){
-        
-        bodyStyles[i].classList.toggle("applyStylesCheckbox");
-
-    }
-
-    (bodyStyles.style.backgroundColor)= "blue";
-}
-
-const putOffStylesForCheckbox = ()=>{
-
-
-    for(i=0;i<bodyStyles.length;i++){
-        
-        bodyStyles[i].classList.toggle("applyStylesCheckbox");
-
-    }
-    bodyStyles.style.backgroundColor = "default";
-
-}
