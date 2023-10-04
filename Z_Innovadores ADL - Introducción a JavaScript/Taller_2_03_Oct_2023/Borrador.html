@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TALLER DOM</title>
     <link rel="stylesheet" href="CSS/styles_Taller_2_DOM.css">
+    <link rel="stylesheet" href="CSS/styles2_Taller_2_DOM.css">
+    <script src="CSS/styles2_Taller_2DOM.js"></script>
 </head>
 
-<body class="body_page">
+<body class="body_page" id="body__">
     <div class="containter-main">
         <h1 class="tittle t-main">Modo por defecto</h1>
 
@@ -16,18 +18,18 @@
 
 
         <div class="checkbox-container">
-            <label for="" class="checkbox-label">Activar estilos</label>
-            <input type="checkbox" name="" id="check" class="checkbox_input">
+            <label for="" class="checkbox-label">Modo oscuro</label>
+            <input type="checkbox" name="" id="check" class="checkbox_input" onclick="activateCheckbox()">
 
         </div>
 
 
         <div class="btn-container">
-            <button class="btn button-1">Cambiar fondo y fuente de la pagina</button>
+            <button class="btn button-1" onclick="changeBackground_Font()">Cambiar fondo y fuente de la pagina</button>
 
-            <button class="btn button-3">Cambiar tamaño y estilo de tipografia de la fuente</button>
+            <button class="btn button-3" onclick="changeSizeFont_FamilyFont()">Cambiar tamaño y estilo de tipografia de la fuente</button>
 
-            <button class="btn button-2">Restablecer todo</button>
+            <button class="btn button-2" onclick="restoreChanges()">Restablecer todo</button>
         </div>
 
 
