@@ -133,3 +133,103 @@ restoreChanges = () => {
   /* bodyStyles[i].undo; */
 };
 
+
+
+
+
+
+
+
+
+
+
+const activateCheckbox = () => {
+  /*   alert("probando"); */
+    /* checkbox funcion activar/desactivar*/
+  
+    {
+      container_Main.classList.toggle("activateCheckbox");
+  
+      {
+        if (checkbox_Input.checked == true) {
+          /* alert("Modo oscuro Activado"); */
+          h1_Estilo.innerHTML = "Modo oscuro Activado";
+  
+          applyStylesForCheckbox();
+        } else if (checkbox_Input.checked == false) {
+  
+          
+          applyStylesForCheckbox();
+          
+          alert("Modo oscuro Desactivado");
+          h1_Estilo.innerHTML = "Modo por defecto";
+        }else{
+          action_Check_applyrestoreChanges();
+          h1_Estilo.innerHTML = "Modo por defecto";
+        }
+      }
+      {
+      }
+    }
+    {
+  /*     acctionButton_changeBackground_Font();
+      acctionButton_changeSizeFont_FamilyFont();
+      acctionButton_restoreChanges(); */
+    }
+  };
+
+  
+/* putOffStylesForCheckbox = () => {
+    // desactivar estilo estilo
+    alert("Modo oscuro Desactivado");    
+    checkbox_Input.classList.toggle("applyStylesCheckbox");
+
+    body_Estilo.style.backgroundColor = "lightblue";
+  };
+   */
+applyStylesForCheckbox = () => {
+  // /* aplicar estilo al pulsar el Checkbox de MODO OSCURO*/
+  /* referenciasDeClase
+
+    -body
+    -containter-main
+    -tittle
+    -paragraph-1
+    -checkbox-label
+    -checkbox_input
+    -checkbox-container
+    -btn-container
+    -button-1
+    -button-2
+    -button-3
+    -btn
+    
+    Referencias Nomenclatura
+
+    applyStylesModeDark = Modo oscuro
+    applyStylesBackground_Font = Accion boton 1
+    applyStylesSizeFont_FamilyFont = Accion boton 2
+    applyrestoreChanges = Accion boton 3
+    
+    */
+
+
+
+
+  body_Estilo.classList.toggle("applyStylesModeDark-body");
+  container_Main.classList.toggle("applyStylesModeDark-containter-main");
+  h1_Estilo.classList.toggle("applyStylesModeDark-tittle");
+  Paragragh_Estilo.classList.toggle("applyStylesModeDark-paragraph-1");
+  checkbox_Label.classList.toggle("applyStylesModeDark-checkbox-label");
+  checkbox_Input.classList.toggle("applyStylesModeDark-checkbox_input");
+  checkbox_Container.classList.toggle("applyStylesModeDark-checkbox-container");
+  button_Container.classList.toggle("applyStylesModeDark-btn-container");
+  button1_Estilo.classList.toggle("applyStylesModeDark-button-1");
+  button2_Estilo.classList.toggle("applyStylesModeDark-button-2");
+  button3_Estilo.classList.toggle("applyStylesModeDark-button-3");
+  for (i = 0; i < buttonAllSelect_Estilo.length; i++) {
+    buttonAllSelect_Estilo[i].classList.toggle("applyStylesModeDark-btn");
+  }
+
+
+};
