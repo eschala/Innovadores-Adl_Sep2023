@@ -1,0 +1,120 @@
+/* Modo OSCURO */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* 
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Gabarito',sans-serif ;
+}
+
+     */
+
+
+#modo__2{
+
+
+}
+
+.body_page{
+    /* body */
+
+    background-color: rgb(13, 11, 29);
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+
+
+    
+
+
+
+
+
+
+}
+
+.containter-main {
+    /* div container-main contenedor principal */
+
+    align-items: center;
+
+    border: solid 2px black;
+    background-color: rgb(152, 163, 255);
+    height: fit-content;
+    width: 80%;
+
+
+
+}
+
+.tittle {
+    /* h1 */
+    color: black;
+
+
+
+
+}
+
+.paragraph-1 {
+    /* p */
+    font-style: oblique;
+    color: black;
+
+}
+.checkbox-label{
+    color: black;
+}
+
+
+.checkbox-container {
+    /* div checkbox-container contenedor checkbox */
+
+    border: solid 2px black;
+    background-color: rgba(0, 26, 255, 0.425);
+
+}
+
+.btn-container {
+    /* div btn-container Contendor de botones */
+    border: solid 2px black;
+    background-color: rgba(0, 255, 98, 0.24);
+    height: 100px;
+}
+
+.btn {
+    /* btn selector general de botones */
+}
+
+
+.button-1 {
+    /* btn btn button-1 boton 1 */
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.button-2 {
+    /* btn btn button-2 boton 2 */
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.button-3 {
+    /* btn btn button-3 boton 3 */
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+
+

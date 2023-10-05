@@ -1,7 +1,6 @@
-/* Importacion de Fuente GABARITO,POPPINS */
+/* Modo CLARO */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@200&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
 
 /* 
@@ -13,29 +12,61 @@
 }
 
      */
-link{
 
-    display: none;
-}
-
-#body__{
+#modo__1 {
+    display: block;
 
 }
+
+
+
 .body_page {
     /* body */
     display: block;
-    background-color: rgb(7, 2, 48);
-    background-color: azure;
+
+    background-color: rgb(206, 200, 252);
+
+
+    /*   display: flex; */
+
+    height: 800px;
+
+
+
+
+
+
+
+
+}
+
+.applyStylesModeDark-body {
+    background-color: rgb(13, 11, 29);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+}
 
-    
+.applyStylesBackground_Font-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
+}
+
+.applyStylesSizeFont_FamilyFont-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
+}
+
+.applyrestoreChanges-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -46,7 +77,10 @@ link{
     align-items: center;
 
     border: solid 2px black;
-    background-color: rgb(152, 163, 255);
+
+    background-color: rgb(6, 9, 41);
+
+
     height: fit-content;
     width: 80%;
 
@@ -54,19 +88,87 @@ link{
 
 }
 
+.applyStylesBackground_Font-containter-main {
+    background-color: rgb(152, 163, 255);
+
+
+}
+
+.applyStylesSizeFont_FamilyFont-containter-main {}
+
+.applyrestoreChanges-containter-main {}
+
 .tittle {
     /* h1 */
 
+    color: black;
 
 
 
 }
+
+.applyStylesModeDark-tittle {
+    color: aliceblue;
+
+
+}
+
+.applyStylesBackground_Font-tittle {}
+
+.applyStylesSizeFont_FamilyFont-tittle {}
+
+.applyrestoreChanges-tittle {}
 
 .paragraph-1 {
     /* p */
     font-style: oblique;
+    color: black;
+
+
 
 }
+
+.applyStylesModeDark-paragraph-1 {
+
+    color: aliceblue;
+
+}
+
+.applyStylesBackground_Font-paragraph-1 {}
+
+.applyStylesSizeFont_FamilyFont-paragraph-1 {}
+
+.applyrestoreChanges-paragraph-1 {}
+
+.checkbox-label {
+    color: black;
+
+}
+
+.applyStylesModeDark-checkbox-label {
+
+    color: aliceblue;
+
+}
+
+.applyStylesBackground_Font-checkbox-label {}
+
+.applyStylesSizeFont_FamilyFont-checkbox-label {}
+
+.applyrestoreChanges-checkbox-label {}
+
+.checkbox_input {
+    display: block;
+
+}
+
+.applyStylesModeDark-checkbox_input {}
+
+.applyStylesBackground_Font-checkbox_input {}
+
+.applyStylesSizeFont_FamilyFont-checkbox_input {}
+
+.applyrestoreChanges-checkbox_input {}
 
 .checkbox-container {
     /* div checkbox-container contenedor checkbox */
@@ -76,35 +178,105 @@ link{
 
 }
 
+.applyStylesModeDark-checkbox-container {}
+
+.applyStylesBackground_Font-checkbox-container {}
+
+.applyStylesSizeFont_FamilyFont-checkbox-container {}
+
+.applyrestoreChanges-checkbox-container {}
+
 .btn-container {
     /* div btn-container Contendor de botones */
     border: solid 2px black;
-    background-color: rgba(0, 255, 98, 0.24);
+    background-color: rgba(0, 132, 255, 0.24);
     height: 100px;
 }
 
-.btn {
-    /* btn selector general de botones */
-}
+.applyStylesModeDark-btn-container {}
+
+.applyStylesBackground_Font-btn-container {}
+
+.applyStylesSizeFont_FamilyFont-btn-container {}
+
+.applyrestoreChanges-btn-container {}
+
+
 
 
 .button-1 {
     /* btn btn button-1 boton 1 */
     padding: 10px;
     border-radius: 15px;
+    background-color: rgb(228, 201, 165);
+
 
 }
+
+.applyStylesModeDark-button-1 {}
+
+.applyStylesBackground_Font-button-1 {}
+
+.applyStylesSizeFont_FamilyFont-button-1 {}
+
+.applyrestoreChanges-button-1 {}
 
 .button-2 {
     /* btn btn button-2 boton 2 */
     padding: 10px;
     border-radius: 15px;
+    background-color: rgb(162, 219, 219);
 
 }
+
+.applyStylesModeDark-button-2 {}
+
+.applyStylesBackground_Font-button-2 {}
+
+.applyStylesSizeFont_FamilyFont-button-2 {}
+
+.applyrestoreChanges-button-2 {}
 
 .button-3 {
     /* btn btn button-3 boton 3 */
     padding: 10px;
     border-radius: 15px;
+    background-color: rgb(209, 169, 218);
 
+}
+
+.applyStylesModeDark-button-3 {}
+
+.applyStylesBackground_Font-button-3 {}
+
+.applyStylesSizeFont_FamilyFont-button-3 {}
+
+.applyrestoreChanges-button-3 {}
+
+
+.btn {
+    /* btn selector general de botones */
+    background-color: rgb(60, 76, 92);
+
+}
+
+.applyStylesModeDark-btn {
+
+    padding: 20px;
+    background-color: rgb(202, 186, 167);
+}
+
+.applyStylesBackground_Font-btn {
+
+    padding: 20px;
+}
+
+.applyStylesSizeFont_FamilyFont-btn {
+
+    padding: 20px;
+}
+
+.applyrestoreChanges-btn {
+
+    padding: 20px;
 }

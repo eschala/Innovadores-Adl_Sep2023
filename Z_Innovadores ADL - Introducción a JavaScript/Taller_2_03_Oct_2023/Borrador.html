@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TALLER DOM</title>
-    <link rel="stylesheet" href="CSS/styles_Taller_2_DOM.css">
-    <link rel="stylesheet" href="CSS/styles2_Taller_2_DOM.css">
-    <script src="CSS/styles2_Taller_2DOM.js"></script>
+    <link id="modo__1" class="Modo_1" rel="stylesheet" href="CSS/styles_Taller_2_DOM.css">
+
 </head>
 
 <body class="body_page" id="body__">
@@ -25,11 +24,11 @@
 
 
         <div class="btn-container">
-            <button class="btn button-1" onclick="changeBackground_Font()">Cambiar fondo y fuente de la pagina</button>
+            <button class="btn button-1" onclick="acctionButton_changeBackground_Font()">Cambiar fondo y fuente de la pagina</button>
 
-            <button class="btn button-3" onclick="changeSizeFont_FamilyFont()">Cambiar tamaño y estilo de tipografia de la fuente</button>
+            <button class="btn button-3" onclick="acctionButton_changeSizeFont_FamilyFont()">Cambiar tamaño y estilo de tipografia de la fuente</button>
 
-            <button class="btn button-2" onclick="restoreChanges()">Restablecer todo</button>
+            <button class="btn button-2" onclick="acctionButton_restoreChanges()">Restablecer todo</button>
         </div>
 
 
@@ -37,6 +36,7 @@
 
 
     <script src="JavaScript/Taller_2_DOM_Script.js"></script>
+
 </body>
 
 </html>
