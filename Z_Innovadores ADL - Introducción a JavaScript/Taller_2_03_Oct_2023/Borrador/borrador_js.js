@@ -55,26 +55,7 @@ const bodyStyles = document.querySelector(".body_page");
 
 const bodyIdSelect = document.querySelector("#body__");
 
-const activateCheckbox = () => {
-  alert("probando");
-  /* checkbox funcion activar/desactivar*/
 
-  for (i = 0; i < contenedores_.length; i++) {
-    contenedores_[i].classList.toggle("activateCheckbox");
-
-    {
-      if (stylesForCheckbox.checked == true) {
-        applyStylesCheckbox();
-      } else if (stylesForCheckbox.checked == false) {
-        putOffStylesForCheckbox();
-      }
-    }
-    {
-      /* if(){}else
-      if(){}else{} */
-    }
-  }
-};
 
 applyStylesCheckbox = () => {
   /* aplicar estilo */
@@ -141,7 +122,7 @@ restoreChanges = () => {
 
 
 
-
+activar_Checkbox();
 
 const activateCheckbox = () => {
   /*   alert("probando"); */
