@@ -10,7 +10,7 @@ class Planetas{
     
         document.write("Hola soy el planeta "+this.name+"<br>");
         document.write("Mi tamaño es "+this.size+"<br>");
-        document.write("de color"+this.color+"<br>");
+        document.write("de color "+this.color+"<br>");
         document.write("y gravedad de "+this.gravity+"<br>");
 
         
@@ -56,7 +56,7 @@ const validarPlaneta=()=>{
 
 const addPlanetas=()=>{
 
-    const namePlanet= new Planetas(text_name_USER,text_size_USER,text_color_USER,text_gravity_USER);
+    const namePlanet= new Planetas(text_name_USER.value,text_size_USER.value,text_color_USER.value,text_gravity_USER.value);
     paragraphResult.innerHTML=namePlanet.info();
 
 
