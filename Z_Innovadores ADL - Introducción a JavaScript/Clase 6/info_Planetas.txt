@@ -1,0 +1,43 @@
+Claro, aquí tienes una lista de los planetas del sistema solar con información sobre su gravedad, color y tamaño:
+
+1. Mercurio:
+   - Gravedad: 3.7 m/s²
+   - Color: Grisáceo
+   - Tamaño: Diámetro de aproximadamente 4,880 kilómetros
+
+2. Venus:
+   - Gravedad: 8.87 m/s²
+   - Color: Amarillo y naranja debido a densas nubes
+   - Tamaño: Diámetro de aproximadamente 12,104 kilómetros
+
+3. Tierra:
+   - Gravedad: 9.81 m/s²
+   - Color: Principalmente azul y verde debido a los océanos y la vegetación
+   - Tamaño: Diámetro de aproximadamente 12,742 kilómetros
+
+4. Marte:
+   - Gravedad: 3.71 m/s²
+   - Color: Rojo debido a la presencia de óxido de hierro en la superficie
+   - Tamaño: Diámetro de aproximadamente 6,779 kilómetros
+
+5. Júpiter:
+   - Gravedad: 24.79 m/s²
+   - Color: Mayormente naranja y blanco con bandas de nubes
+   - Tamaño: El planeta más grande del sistema solar con un diámetro de aproximadamente 139,822 kilómetros
+
+6. Saturno:
+   - Gravedad: 10.44 m/s²
+   - Color: Amarillo y dorado con anillos espectaculares
+   - Tamaño: Diámetro de aproximadamente 116,464 kilómetros
+
+7. Urano:
+   - Gravedad: 8.69 m/s²
+   - Color: Azul verdoso debido a la presencia de metano en su atmósfera
+   - Tamaño: Diámetro de aproximadamente 50,724 kilómetros
+
+8. Neptuno:
+   - Gravedad: 11.15 m/s²
+   - Color: Azul profundo debido a la presencia de metano en su atmósfera
+   - Tamaño: Diámetro de aproximadamente 49,244 kilómetros
+
+Cabe señalar que estos valores pueden variar ligeramente según la fuente y las mediciones exactas. La información proporcionada es una representación general de los planetas en nuestro sistema solar.
