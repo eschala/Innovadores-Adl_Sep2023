@@ -52,6 +52,7 @@ color: aliceblue;
     display: none;
 }
 .container_sub_main{/* Aplicar de forma general */
+    display: block;
     
 }
 .container__Sub{
