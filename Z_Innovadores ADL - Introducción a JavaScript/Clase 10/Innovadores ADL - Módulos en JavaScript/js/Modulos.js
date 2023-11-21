@@ -8,4 +8,6 @@ import { RESTA } from "./resta.js";
 const BTN = document.querySelector(".calcular");
 
 
+
+
 BTN.addEventListener("click",VALIDATIONS);

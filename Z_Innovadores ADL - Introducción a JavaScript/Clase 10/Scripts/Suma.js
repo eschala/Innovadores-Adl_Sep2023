@@ -1,8 +1,9 @@
 const SumaFunction=()=>{
 
 
-        const n1=parseInt(prompt("Digite el primero numero"));
-        const n2=parseInt(prompt("Digite el Segundo numero"));
+        const n1=parseInt(document.querySelector("#Number_1").value);
+        const n2=parseInt(document.querySelector("#Number_2").value);
+
 
         const rs = document.querySelector(".Resultado_SCREEN");
 
@@ -14,6 +15,6 @@ const SumaFunction=()=>{
 
 export{
 
-    SumaFunction
+    SumaFunction 
 
 }

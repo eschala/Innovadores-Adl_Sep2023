@@ -1,0 +1,133 @@
+*{
+    font-family: sans-serif;
+
+    font-size: 30px;
+
+}
+
+.body_Class{
+
+    display: flex;
+    align-items: center;justify-content: center;
+
+    min-height: 800px ;max-height: 1080px;
+}
+
+.container_main{
+
+
+
+    display: flex;
+
+    border: 1px rgba(0, 0, 0, 0) solid;
+    background-color: rgb(100, 124, 197);
+
+    width: 60%;
+    height: 600px;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    border-radius: 20px;
+
+}
+.tittle{/* Aplicar de forma general */
+    font-weight: 500;
+
+}
+.t1{
+    font-size: 60px;
+
+}
+.t2{
+    font-size: 40px;
+
+}
+.t3{
+
+font-size: 20px;
+color: aliceblue;
+    display: none;
+}
+.container_sub_main{/* Aplicar de forma general */
+    
+}
+.container__Sub{
+
+    border: rgba(255, 0, 0, 0) 1px solid;
+    border-radius: 15px;
+    background-color: rgba(229, 226, 212, 0.859);
+
+}
+
+.container__Sub_2{
+    border: rgba(0, 0, 255, 0) 1px solid;
+    border-radius: 15px;
+    
+}
+
+.Resultado_SCREEN{
+
+color: aliceblue;
+
+}
+
+
+.Sumar_ID{
+    display: block;
+
+    
+}
+.Restar_ID{
+    display: block;
+
+    
+}
+.Multiplicar_ID{
+    display: block;
+
+    
+}
+.Dividir_ID{
+    display: block;
+
+    
+}
+
+
+.textNumber{
+
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+
+
+}
+.checkBox{
+
+    width: 30px;
+    background-color: blue;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+
+}
+label{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.calcular{
+background-color: rgba(240, 248, 255, 0.783);
+color: black; 
+    border-radius: 15px;
+}
+   
+.calcular:hover{
+
+    
+    background-color: rgba(38, 44, 113, 0.644);
+    color: aliceblue;
+
+}

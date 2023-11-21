@@ -5,28 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Basica</title>
+    <link rel="stylesheet" href="styleCalculadoraBasica.css">
 </head>
 
-<body>
-    <div class="container main">
-        <h1 class="tittle">Seleccione la operacion</h1>
-        <div class="container__Sub"> <input type="number" name="" id="Number_1" placeholder="Primer numero">
-            <input type="number" name="" id="Number_2" placeholder="Segundo numero">
+<body class="body_Class">
+    <div class="container_main">
+        
+        <div class="container__Sub container_sub_main"> 
+            <h1 class="tittle t1">Seleccione la operacion</h1>
+
+            <input type="number" name="" id="Number_1" placeholder="Primer numero" class="textNumber">
+            <input type="number" name="" id="Number_2" placeholder="Segundo numero" class="textNumber">
             <button class="calcular"> Calcular</button>
         </div>
-        <div class="container__Sub_2"> <label for="">Sumar</label>
-            <input type="checkbox" name="" id="Sumar_ID">
+        <div class="container__Sub_2 container_sub_main"> 
+            <label for="">Sumar</label>
+            <input type="checkbox" name="" id="Sumar_ID"   class="checkBox">
             <label for="">Restar</label>
-            <input type="checkbox" name="" id="Restar_ID">
+            <input type="checkbox" name="" id="Restar_ID"  class="checkBox">
             <label for="">Multiplicar</label>
-            <input type="checkbox" name="" id="Multiplicar_ID">
+            <input type="checkbox" name="" id="Multiplicar_ID" class="checkBox">
             <label for="">Dividir</label>
-            <input type="checkbox" name="" id="Dividir_ID">
+            <input type="checkbox" name="" id="Dividir_ID" class="checkBox">
         </div>
 
         <br>
 
-        <h2 class="Resultado_SCREEN">Resultado</h2>
+        <h2 class="Resultado_SCREEN tittle t2">Resultado</h2>
+
+        <h3 class="tittle t3">By Eduar Samir Chalá Cuesta, profe pongame mi 5</h3>
 
 
     </div>
