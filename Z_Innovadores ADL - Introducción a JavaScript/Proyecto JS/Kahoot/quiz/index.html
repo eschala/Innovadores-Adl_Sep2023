@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico+xml" href="//assets-cdn.kahoot.it/controller/v2/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Kahoot</title>
+</head>
+<body>
+    <div class="general">
+        
+            <div class="pregunta">
+                <h1 id="pregunta"></h1>
+            </div>
+            
+            <div class="imagen">
+                <img src="" alt="imagen alusiva a la tematica de la pregunta" id="imagen" width="400" height="300">
+            </div>
+
+            <div class="opcionesRespuesta">
+                <div class="primeras">
+                    <div class="opciones opcion1" >
+                        <button id="opcion1" value="1"></button>
+                    </div>
+
+                    <div class="opciones opcion2" >
+                        <button id="opcion2" value="2"></button>
+                    </div>
+                </div>
+
+
+                <div class="segundas">
+                    <div class="opciones opcion3" >
+                        <button id="opcion3" value="3"></button>
+                    </div>
+
+                    <div class="opciones opcion4" >
+                        <button id="opcion4" value="4"></button>
+                    </div>
+                </div>
+                
+            </div>
+            
+    </div>
+    
+    <div class="tiempo">
+        <h1 id="tiempo"></h1>
+    </div>
+
+    <div class="score">
+        <div class="datos">
+            <audio ></audio>
+            <h1 id="usuario"></h1>
+            <h1 id="bien"> 
+                <p id="correctas"></p>
+                 Respuestas correctas  
+            </h1>
+       
+            <h1 id="mal"> 
+                <p id="incorrectas"></p> 
+                Respuestas incorrectas 
+             </h1>
+             <br>
+        </div>
+
+        <a href="/Rio software/kahoot/nombre/"><button id="deNuevo">Jugar de nuevo</button></a>
+    </div>
+     <script type="module" src="jsq/main.js"></script>
+</body>
+</html>

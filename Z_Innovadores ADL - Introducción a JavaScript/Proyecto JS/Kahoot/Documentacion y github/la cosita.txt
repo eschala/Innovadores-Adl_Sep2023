@@ -1,0 +1,24 @@
+ <ThemeContex.Provider value={{theme,setTheme}}>
+      {<div className={theme}>         
+      <h1>Lista de componentes</h1>
+      <h1>El tema es {theme} </h1>
+      windowWidth: {windowWidth}
+      <div>
+        <input
+          ref={inputRef}
+          value={userName}
+          onChange={(e) => setUserName(e.target.value)}
+        />
+      </div>
+      <button onClick={focusOnInput}>Focus</button>
+      <h3>
+        Nombre de Usuario: {userName}
+        {previousName.current ? ` y antes era ${previousName.current}` : ""}
+      </h3>
+      <p>Hemos hecho {contadorRender.current} re-renders</p>
+    {<ShoppingArea mercado={mercado} updateShoppingItem={updateShoppingItem} />}  
+      
+      </div>}
+    
+    
+    </ThemeContex.Provider>
