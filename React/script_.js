@@ -16,18 +16,14 @@ const mostrarMsg=()=>
 alert(operar);}
 
 
-const contarClicBody = (operar) => {
+const contarClicBody = () => {
   contar++;
   operar = contar;
 
   const titulo_ = document.querySelector(".titulo");
   titulo_.innerHTML = operar;
 
-  return operar;
-
 };
-
-
 
 
 body_Element.addEventListener("click", contarClicBody);
